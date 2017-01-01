@@ -1,0 +1,141 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	
+	width: 100%;
+	margin: 0 0 50px; /* bottom = footer height */
+	background-image: url(../img/cnt.jpg);
+        background-repeat: repeat-x,y;
+}
+
+.header{
+	background:#6396bc;
+        clear: both;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	/*get rid of line between top and nav bar*/
+	right: 0px;
+    margin-bottom: 10px;
+	height:150px;
+        
+}
+.logo{
+	position: Relative;
+	font-family: "helvetica";
+	font-size: 15px;
+}
+.logo2{
+	position: Relative;
+	float: center;
+	left:30px;
+	font-family: "helvetica";
+	font-size: 15px;
+}
+.nav{
+    position: relative;
+	float: right; /*to get the nav stuff to space out to the right, you need to take the nav float to right, list float to left above*/
+	margin-right:30px;
+	margin-top:30px;
+	
+}
+.navhead{
+	font-size:10px;}
+a {text-decoration: none; /*remove underline in twistedpedia*/
+   color: #fff;}
+li {list-style: none;
+   float: left;        /* shifts the text out*/
+   margin-left: 15px; /*spaces out text*/
+   padding-top: 15px;} /*moves down from top*/
+   
+   
+.active > a {
+	background: #ff7878
+}
+   
+   /*main body below nav------------------------------*/
+   
+.spacer
+{
+    width: 100%;
+    height: 95px;
+}
+
+
+.shell{
+	
+width: 100%;
+margin-top:200px 
+}
+
+.leftshell{
+	
+float:left; 
+width: 40%;
+margin-left: 5%;
+
+}
+.rightshell{
+float:right;
+width: 40%;
+margin-right: 5%;
+
+}
+
+
+
+
+.jokes{
+	
+border: 3px solid gray;
+background-color: white;
+padding-left: 5%;
+margin-bottom: 5%;
+
+
+}
+.meta{			
+color: blue;
+text-align: right;
+padding-right:5%;
+
+}
+
+   footer {
+
+
+	font-size: 90%;
+	font-style:italic;
+	font-variant: small-caps;
+        background-color: #efefef;
+	padding-top: 10px;
+	text-align: center;
+	position: absolute;
+	bottom: -10px;
+	width: 100%;
+}
+
+
+
+
+
+
+/* post joke page    ---------------------------------------------*/
+
+
+.formsection{
+	
+width: 50%;
+margin-top: 10%;
+position: center;
+}
+
+.fillform{
+margin-left:15%
+	
+}
+
+
